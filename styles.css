@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.obj-input {
+    width: 600px;
+}
+
+.content ul {
+    display: block;
+    padding-left: 30px;
+}
+
+.content li {
+    margin-top: 4px;
+    display: flex;
+    flex-flow: column;
+    cursor: pointer;
+}
+
+.menu-span:hover {
+    transform: translate(5px);
+    box-shadow: -2px 2px 3px 1px black;
+}
+
+.menu-span {
+    transition: all .2s ease-in-out;
+    display: block;
+    border: 1px black solid;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container>span {
+    background: silver;
+}
+
+.closed {
+    color: yellow;
+    background-color: blue !important;
+}
+
+.content {
+    margin-left: 10px;
+}
