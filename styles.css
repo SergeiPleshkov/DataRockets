@@ -22,10 +22,10 @@ body {
     margin-top: 4px;
     display: flex;
     flex-flow: column;
-    cursor: pointer;
 }
 
-.menu-span:hover {
+.container>.menu-span:hover {
+    cursor: pointer;
     transform: translate(5px);
     box-shadow: -2px 2px 3px 1px black;
 }
